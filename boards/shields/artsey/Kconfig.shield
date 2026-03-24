@@ -1,0 +1,3 @@
+config SHIELD_ARTSEY
+    def_bool y
+    select ZMK_KEYBOARD_NAME
