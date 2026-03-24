@@ -1,3 +1,6 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -7,34 +10,6 @@
                 &kp A  &kp R  &kp T  &kp S
                 &kp E  &kp Y  &kp I  &kp O
             >;
-        };
-    };
-
-    combos {
-        compatible = "zmk,combos";
-
-        combo_q {
-            timeout-ms = <30>;
-            key-positions = <0 1>;
-            bindings = <&kp Q>;
-        };
-
-        combo_w {
-            timeout-ms = <30>;
-            key-positions = <1 2>;
-            bindings = <&kp W>;
-        };
-
-        combo_f {
-            timeout-ms = <30>;
-            key-positions = <2 3>;
-            bindings = <&kp F>;
-        };
-
-        combo_p {
-            timeout-ms = <30>;
-            key-positions = <4 5>;
-            bindings = <&kp P>;
         };
     };
 };
