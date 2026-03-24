@@ -2,7 +2,6 @@ file_format: "1"
 id: artsey
 name: ARTSEY
 type: shield
-url: https://github.com/yourname/zmk-config
 requires:
   - nice_nano
 features:
